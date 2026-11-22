@@ -1,6 +1,13 @@
+"""Entry program: writes the plan text to entry.txt."""
+
 import os
 
-PLAN = "Day 1: scrape free public data (SEC EDGAR filings, FDA recalls, court records) into clean dated datasets. Sell each for $9-29 on Gumroad to traders and researchers, listing 2 new datasets a day, and take custom data requests at $25 each. Likely $100 -> $600 in 30 days."
+PLAN = (
+    "Day 1: scrape free public data (SEC EDGAR filings, FDA recalls, court records) "
+    "into clean dated datasets. Sell each for $9-29 on Gumroad to traders and "
+    "researchers, listing 2 new datasets a day, and take custom data requests at "
+    "$25 each. Likely $100 -> $600 in 30 days."
+)
 
 
 def main():
